@@ -1,0 +1,49 @@
+h1.blog-header {
+    color: white;
+    text-align: center;
+    font-size: 56px;
+  }
+  
+  .basic {
+    border: 25px double grey;
+    background-color: #1c6000;
+  }
+  
+  #override {
+    background-color: #3e4444;
+    font-family: 'Special Elite', cursive;
+  }
+  
+  #test {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  #testy {
+    background-color: blue;
+  }
+  
+  .date {
+    color: rgb(31,234,0);
+    margin-left: 10px;
+  }
+  
+  div.first-para {
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 5px solid black;
+    font-family: 'Pathway Gothic One', cursive;
+    font-size: 20px;
+  }
+  
+  p {
+    margin-left: 10px;
+    color: white;
+  }
+  
+  h1.Title {
+    color: black;
+    padding-left: 10px;
+    margin-left: 10px;
+  }

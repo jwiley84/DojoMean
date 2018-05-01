@@ -1,0 +1,20 @@
+function practice(arr) {
+    for (var i = 0; i <= arr.length-1; i++) {
+        console.log("Name:" + arr[i].name + ", Cohort" + arr[i].cohort);
+    }
+}
+
+function empl(emp) {
+    console.log("EMPLOYEES");
+    for (var i = 0; i <= emp.employees.length - 1; i++) {
+        var sum = emp.employees[i].first_name.length + emp.employees[i].last_name.length;
+        console.log((i + 1).toString()+ " - " + emp.employees[i].last_name.toUpperCase() 
+        + ", " + emp.employees[i].first_name.toUpperCase() + " - " + sum);
+    }
+    console.log("MANAGERS");
+    for (var i = 0; i <= emp.managers.length - 1; i++) {
+        var sum = emp.managers[i].first_name.length + emp.managers[i].last_name.length;
+        console.log((i + 1).toString()+ " - " + emp.managers[i].last_name.toUpperCase() 
+        + ", " + emp.managers[i].first_name.toUpperCase() + " - " + sum);
+    }
+}

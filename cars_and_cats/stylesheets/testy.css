@@ -1,0 +1,33 @@
+/*body {
+
+  background-color: grey;
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+body {
+    /*padding: 500px;*/
+    padding-top: 500px;
+    padding-bottom: 500px;
+    /*background-image: url("../images/pokemon/zygardeb2.png");*/
+    background: linear-gradient(to right, black, grey);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+  
+  .color {
+    color: #27a102;
+  }
+  
+    .col-lg-12 {
+      background-color: pink;
+      border: 2px solid red;
+      width: 100px;
+    }
+  
+    .container {
+      margin-left: 0px;
+    }
